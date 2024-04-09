@@ -1,0 +1,53 @@
+.bungee-spice-regular {
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+   body {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+   /* background-image: url("https://th-thumbnailer.cdn-si-edu.com/h-bun2rAGQCTzVJvCy-fJPZB-wE=/fit-in/1600x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/f2/94/f294516b-db3d-4f7b-9a60-ca3cd5f3d9b2/fbby1h_1.jpg");
+    background-size: cover;
+    */
+    background-color: #9D695A;
+}
+
+
+#h1-title {
+    font-size: 150px;
+    margin: 0 0;
+}
+
+.Menu {
+   margin-right: 5px;
+   margin-left: 5px;
+   margin-left: auto;
+   margin-right: auto;
+
+}
+
+.btn_class {
+    margin-top: 20px;
+    width: 160px;
+    height: 50px;
+    font-size: 16px;
+   /* background: linear-gradient(lightblue,lightgreen);*/
+   background-color: #78E0DC;
+    border-radius: 4px;
+    color: black;
+}
+
+#text_on_site {
+    margin-top: 200px;
+    margin-bottom: 0px;;
+    color: white;
+    text-shadow: 0 0 3px black;
+    word-wrap: break-word;
+    width: 300px;
+    border: 3px solid ;
+    border-radius: 4px;
+    background-color: #A1CDF1;
+}
