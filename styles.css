@@ -3,8 +3,12 @@
     font-weight: 400;
     font-style: normal;
   }
+
+  body {
+    background-color: #9D695A;
+  }
   
-   body {
+   .upper_site {
     display: flex;
     justify-content: start;
     align-items: start;
@@ -12,7 +16,7 @@
    /* background-image: url("https://th-thumbnailer.cdn-si-edu.com/h-bun2rAGQCTzVJvCy-fJPZB-wE=/fit-in/1600x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/f2/94/f294516b-db3d-4f7b-9a60-ca3cd5f3d9b2/fbby1h_1.jpg");
     background-size: cover;
     */
-    background-color: #9D695A;
+    
 }
 
 
@@ -40,17 +44,44 @@
     color: black;
 }
 
-#text_on_site {
-    margin-top: 200px;
-    margin-bottom: 0px;;
+.text_on_index {
+    display: flex;
+    align-items: center;
+}
+
+#first_textbox {
+    margin-left: 200px;
     color: white;
     text-shadow: 0 0 3px black;
     word-wrap: break-word;
-    width: 300px;
-    border: 3px solid ;
+    border: 3px solid black; /* Adjust border color */
     border-radius: 4px;
     background-color: #A1CDF1;
+    padding: 10px; /* Add padding for better appearance */
+    width: 300px;
+    
 }
+
+#second_textbox {
+    margin-left: 300px;
+    margin-right: 0px;
+    color: white;
+    text-shadow: 0 0 4px black;
+    word-wrap: break-word;
+    border: 5px solid black; /* Adjust border color */
+    border-radius: 4px;
+    background-color: #A1CDF1;
+    padding: 10px; /* Add padding for better appearance */
+    width: 500px;
+    
+}
+
+#Disclaimer {
+    color: red;
+    text-shadow: 0 solid 0 white;
+    font-size: 30px;
+}
+
 
 .item_page {
     display: flex;
