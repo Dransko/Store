@@ -129,3 +129,73 @@
     width: 100px;
     font-size: large;
 }
+
+.about_us_back {
+    background-color: #403d39;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#header_au {
+    font-size: 115px;
+    text-decoration: underline;
+    width: 500px;
+    margin: auto auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.description {
+    width: 500px;
+    font-size: 16px;
+}
+
+.lower_part {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+
+.testing_main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+
+
+.border_class {
+    border: 5px solid black;
+    
+}
+
+.h1 {
+    color: white;
+
+}
+
+.h2 {
+    margin-left:0px ;
+
+}
+
+.h3 {
+
+}
+
+.another {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
